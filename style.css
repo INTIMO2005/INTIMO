@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.background1 {
+    position: fixed;
+    top: 0; /* Mueve el segundo fondo hacia abajo */
+    left: 0; /* Mueve el segundo fondo hacia la derecha */
+    width: 2731px;/* Ancho del segundo fondo */
+    height: 608px;  /* Alto del segundo fondo */
+    background-image: url('fondo01.jpg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    z-index: -1;
+}
+
+video {
+    position: relative;
+    z-index: 0;
+}
